@@ -131,4 +131,6 @@ output = output.replace('_result_', result);
 response.output.text[0] = output;
 // Return the updated response text based on the calculation
 return response;
+}
 module.exports = app;
+
