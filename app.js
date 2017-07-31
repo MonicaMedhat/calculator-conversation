@@ -120,7 +120,8 @@ numbersArr.push(response.entities[i].value);
 // In case the user intent is add, perform the addition
 // In case the intent is multiply, perform the multiplication
 var result = 0;
-if (response.intents[0].intent === 'add') {
+if (response.intents[0].intent === 'add') 
+{
 result = parseInt(numbersArr[0]) + parseInt(numbersArr[1]);
 } else if (response.intents[0].intent === 'multiply') {
 result = parseInt(numbersArr[0]) * parseInt(numbersArr[1]);
